@@ -2,10 +2,21 @@
 
 ```mermaid
 graph TD;
-    Add-->Commit;
-    Commit==>Push;
-    Commit-->Add;
-    Push-->Add;
+    subgraph Fork["🍴 Fork Repository"]
+        Add["Add"]
+        Commit["Commit"]
+        Push["Push to fork"]
+        Add-->Commit
+        Commit-->Add
+        Commit-->Push
+    end
+    
+    subgraph Base["📦 Base Repository"]
+        PR["Pull Request"]
+    end
+    
+    Fork-->PR
+    PR-->Base
 ```
 
 | Command | Description |
