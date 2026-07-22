@@ -1,9 +1,7 @@
 # CS PD Week GitHub Workshop Notes
 
 ```mermaid
-graph TD;
-    Base["📦 Base Repository"]
-    
+graph TD;    
     subgraph Fork["🍴 Fork Repository"]
         Add["Add"]
         Commit["Commit"]
@@ -17,7 +15,7 @@ graph TD;
         PR["Pull Request"]
     end
     
-    Base-->|fork|Fork
+    BaseRepo-->|fork|Fork
     Fork-->PR
     PR-->BaseRepo
 ```
