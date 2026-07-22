@@ -2,6 +2,8 @@
 
 ```mermaid
 graph TD;
+    Base["📦 Base Repository"]
+    
     subgraph Fork["🍴 Fork Repository"]
         Add["Add"]
         Commit["Commit"]
@@ -11,12 +13,13 @@ graph TD;
         Commit-->Push
     end
     
-    subgraph Base["📦 Base Repository"]
+    subgraph BaseRepo["📦 Base Repository"]
         PR["Pull Request"]
     end
     
+    Base-->|fork|Fork
     Fork-->PR
-    PR-->Base
+    PR-->BaseRepo
 ```
 
 | Command | Description |
