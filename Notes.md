@@ -1,5 +1,13 @@
 # CS PD Week GitHub Workshop Notes
 
+```mermaid
+graph TD;
+    Add-->Commit;
+    Commit-->Push;
+    Commit-->Add;
+    Push-->Add;
+```
+
 - This is a bullet
 - This is another bullet
 - And a third button
