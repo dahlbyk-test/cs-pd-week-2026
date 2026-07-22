@@ -8,7 +8,9 @@
 2. Two
 3. Three
 
-**Bold** and _italics_ text.
+**Bold** and _italics_ text, or **_both_**!
+
+You can also have `inline code` formatting.
 
 ## What on earth is happening?
 Hi
