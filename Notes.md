@@ -8,6 +8,14 @@ graph TD;
     Push-->Add;
 ```
 
+| Command | Description |
+|---------|-------------|
+| `git clone` | Creates a local copy of a remote repository |
+| `git add` | Stages changes for commit (adds files to the staging area) |
+| `git commit` | Creates a snapshot of staged changes with a message |
+| `git push` | Sends commits to the remote repository |
+| `git pull` | Fetches and integrates changes from the remote repository |
+
 - This is a bullet
 - This is another bullet
 - And a third button
