@@ -3,7 +3,7 @@
 ```mermaid
 graph TD;
     Add-->Commit;
-    Commit-->Push;
+    Commit==>Push;
     Commit-->Add;
     Push-->Add;
 ```
